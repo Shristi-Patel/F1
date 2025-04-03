@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <title>Sign In | Formula 1</title>
+
+        <!-- Inserting Google Font  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
+        
+    
+    
+    <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+
+</head>
+<body>
+
+    <!-- Header Section -->
+
+    <header>
+        <nav>
+            <a href="./index.html">
+            <img class="logo" src="./f1.png" alt="Formula 1">
+            </a>
+            <ul class="primary-links">
+                <li class="tabs"><a href="./About Us.html" >About Us</a></li>
+                <li class="tabs"><a href="./teams.html" >Teams</a></li>
+                <li class="tabs"><a href="./Legends.html" >Legends</a></li>
+                <li><a href="./login.html" id="signinbtn" >Sign In</a></li>
+                <li><a href="./subscribe.html" id="subscribebtn" >Subscribe</a></li>
+            </ul>
+        </nav>
+    </header>
+        
+
+
+    <!-- Main Section -->
+    <div class="container">    
+    <div class="logininform">
+        <form action="">
+             <h1 class="formheading"> Sign In </h1>
+             <div class="input-box">
+                <input type="text" id="username" placeholder="Username" required>
+             </div>
+             <div class="input-box">
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+
+             <div class="remember-forgot">
+                <label><input type="checkbox">Remember Me 
+                </label>
+                <a href="#">Forgot Password?</a>
+             </div>
+
+             <button id="button" onclick="getValues()">Sign In</button>
+
+             <div class="register-link">
+                <p>Don't have an account?
+                    <a href="./register.html">Register</a>
+                </p>
+             </div>
+        </form>
+    </div>
+    </div>
+    
+
+        <!-- Footer Section -->
+
+        <footer>
+            <div class="footer-content">
+                <div class="outer">
+                    <div class="app-download">
+                        <p>download the official F1 app:</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.softpauer.f1timingapp2014.basic&hl=en_GB" target="_blank" class="app-download-icon-googleplay" aria-label="Google Play">
+                            <img src="./google play.png" alt="Google Play">
+                        <a href="https://apps.apple.com/gb/app/formula-1/id835022598" target="_blank" class="app-download-icon-appstore" aria-label="App Store">
+                            <img src="./Appstore.png" alt="App Store">
+                    </div>
+                    <div class="social-media">
+                        <p>Follow Us:</p>
+                        <a href="https://www.facebook.com/Formula1" target="_blank" class="social-icon facebook" aria-label="Facebook">
+                            <img src="./facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="https://x.com/f1" target="_blank" class="social-icon twitter" aria-label="Twitter">
+                            <img src="./x-social-media-white-icon.svg" alt="Twitter">
+                        </a>
+                        <a href="https://www.instagram.com/f1/" target="_blank" class="social-icon instagram" aria-label="Instagram">
+                            <img src="./instagram-white-icon.svg" alt="Instagram">
+                        </a>
+                        <a href="https://www.youtube.com/F1" target="_blank" class="social-icon youtube" aria-label="Youtube">
+                            <img src="./youtube-app-white-icon.svg" alt="Youtube">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="./privacy.html" target="_blank">Privacy Policy</a></li>
+                        <li><a href="./Legal Notices.html" target="_blank">Legal Notices</a></li>
+                        <li><a href="./Guidelines.html" target="_blank">Guidelines</a></li>
+                        <li><a href="./partners.html" target="_blank">Partners</a></li>
+                        <li><a href="./Contacts.html" target="_blank">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+                <div class="footer-bottom">
+                    <p>Copyright &copy;2024; Designed by <span class="designer-name">Shristi</span></p>
+                </div>
+            
+        </footer>
+    
+    
+    <script src="login.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,136 @@
+body {
+    background: url(./bg3.svg) no-repeat;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 20px;
+    font-size: 2.5em;
+    color: #d52b1e;
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+}
+
+h2 {
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+.section {
+    background: transparent;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    display: inline-flex;
+    color: #fff;
+}
+.logo{
+    width: 500px;
+
+}
+
+.section img.section-image {
+    max-width: 90%;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.section h2 {
+    color: #d52b1e;
+    margin-top: 20px;
+    padding-left: 30px;
+    width: 400px;
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.6;
+    padding-left: 30px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+strong {
+    font-weight: 600;
+    padding-right: 10px;
+    
+}
+
+.video-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border: none;
+    border-radius: 10px;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: transparent;
+}
+
+.profile-item {
+    display:inline-flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px 40px 10px 10px;
+    border-radius: 10px;
+    background-color: rgba(34, 34, 34, 0.881);
+    border:2px solid #444;
+    border-radius: 10px;
+    width: 650px;
+    
+} 
+
+.profile-text{
+    width: 250px;
+    padding-right: 50px;
+}
+
+.profile-text b{
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.profile-text h2{
+    color: #fff;
+    padding-left: 30px;
+    margin: 0;
+}
+
+.driver-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+}
+
+

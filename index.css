@@ -1,0 +1,433 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* Header Styling */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: rgb(0, 0, 0);
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-weight: 400;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 10px 30px;
+    position: relative;
+}
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+}
+.tabs::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #e10600;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+nav ul li:hover::after{
+    width: 100%;
+
+}
+#signinbtn{
+    background-color: rgb(225, 6, 0);
+    border-radius: 5px;
+    border-color: rgb(31, 31, 39);
+    padding: 15px;
+    cursor: pointer;
+
+}
+
+#signinbtn:hover{
+    background-color: #000;
+}
+#subscribebtn{
+    background-color: rgb(225, 6, 0);
+    border-radius: 5px;
+    border-color: rgb(31, 31, 39);
+    padding: 15px;
+    cursor: pointer;
+}
+#subscribebtn:hover{
+    background-color: #000;
+}
+.logo{
+    width: 140px;
+    height: 80px;
+    cursor: pointer;
+}
+
+/* Main Styling */
+body {
+    color: #fff;
+
+}
+
+/* Hero Section Styling */
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(bg4.svg) no-repeat;
+    background-size: cover;
+
+}
+
+.hero-content {
+    z-index: 2;
+    color: #fff;
+}
+
+.video-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+iframe {
+    width: 100%;
+    min-width: 800px;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
+}
+
+.hero-content h2 {
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #e10600;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.hero-content .btn {
+    background-color: #e10600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.hero-content .btn:hover {
+    background-color: #b50d00;
+}
+
+/* Featured Teams Section */
+.featured-teams {
+    padding: 60px 20px;
+    text-align: center;
+    background: url(bg3.svg) no-repeat;
+    background-size: cover;
+}
+
+.featured-teams h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #e10600;
+}
+
+.teams-grid {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.team{
+    background-color: rgba(34, 34, 34, 0.514);
+    border: 2px solid #444;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+
+}
+
+.team img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.team .logo h3 {
+    display:flex;
+    color: #fff;
+    margin-top: 10px;
+    padding-left:15px;
+    text-align: left;
+    align-items: center;
+    width: 210px;
+    height: 55px;
+}
+
+.logo{
+    display: flex;
+    width: max-content;
+}
+
+.logo img{
+    width: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+} 
+/* Schedule Section */
+
+.schedule {
+    padding: 60px 20px;
+    text-align: center;
+    background: url(bg3.svg) no-repeat;
+    background-size: cover;
+}
+
+.schedule h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #e10600;
+}
+
+.schedule img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+a{
+    text-decoration: none;
+}
+#redbull h3{
+    border-left: 10px solid rgb(54, 113, 198);
+    
+}
+
+#redbull:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgb(54, 113, 198);
+}
+
+#mclaren h3{
+    border-left: 10px solid rgb(255, 128, 0);
+}
+
+#mclaren:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgb(255, 128, 0);    
+}
+
+#ferrari h3{
+    border-left: 10px solid rgb(232, 0, 32);
+}
+
+#ferrari:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgb(232, 0, 32);
+}
+
+#mercedes h3{
+    border-left: 10px solid rgb(39, 244, 210);
+}
+
+#mercedes:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgb(39, 244, 210);
+}
+
+#astonmartin h3{
+    border-left: 10px solid rgb(34, 153, 113);
+}
+
+#astonmartin:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgb(34, 153, 113);
+}
+
+#rb h3{
+    border-left: 10px solid  rgb(102, 146, 255) ;
+}
+
+#rb:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgb(102, 146, 255);
+}
+
+#haas h3{
+    border-left: 10px solid  rgb(182, 186, 189);
+}
+
+#haas:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgb(182, 186, 189);
+}
+
+#alpine h3{
+    border-left: 10px solid rgb(0, 147, 204);
+}
+
+#alpine:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgb(0, 147, 204);
+}
+
+#williams h3{
+    border-left: 10px solid rgb(100, 196, 255);
+}
+
+#williams:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgb(100, 196, 255);
+}
+
+#kicksauber h3{
+    border-left: 10px solid black;
+}
+
+#kicksauber:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px black;
+}
+
+/* Footer Styling */
+
+footer{
+    background-color: black;
+}
+.footer-content{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.outer{
+    display: flex;
+    justify-content:space-around;
+}
+.app-download{
+    display: flex;
+    width: 765px;
+} 
+.app-download p{
+    font-size: 19px;
+    line-height: 15px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: white;  
+    text-decoration: none; 
+}
+.app-download a{
+    text-decoration: none;
+}
+.app-download a img{
+    width: 170px;
+    padding: 0 10px 10px 10px;
+    margin: 0 10px 10px 10px;
+}
+.social-media{
+    display: flex;
+    justify-content:right;
+}
+.social-media p{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Titillium Web";
+    font-size: 19px;
+    line-height: 15px;
+    letter-spacing: .5px;
+    font-weight: 400;
+    
+}
+.social-media a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    margin: 10px;
+}
+.social-media a img{
+    height: 40px;
+    width: 40px;
+}
+.social-media a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.social-media a:hover{
+    background-color:#000
+}
+.social-media a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footer-links{
+    margin: 30px 0;
+}
+.footer-links ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+   
+}
+.footer-links ul li a{
+    color: whitesmoke;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footer-links ul li a:hover{
+    opacity: 1;
+}
+.footer-bottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footer-bottom{
+    color: white;
+}
+
+
+
+
+
+
+
+
+

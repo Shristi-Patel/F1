@@ -1,0 +1,58 @@
+*{
+    background:transparent;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: .2px;
+    box-sizing: border-box; 
+
+}
+
+body{
+    background:url('./bg3.svg') no-repeat;
+    background-size:cover;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+    /* font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+      
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal; */
+
+
+}
+
+.content{
+    padding: 30px;
+    margin: 30px;
+
+}
+
+h1{
+    /* height: 69px; */
+    text-transform:uppercase;
+    padding-bottom: 20px;
+    margin-bottom: 24px;
+    margin-block-end: 24px;
+    display: block;
+        
+    font-size: 52px;
+    border-bottom-color: rgb(208, 208, 210);
+    border-bottom-style: solid;
+    border-bottom-width: 0.666667px;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+h2{
+    font-weight: 600;
+}
+p{
+    margin: 25px;
+}
+a{
+    color: red;
+}
